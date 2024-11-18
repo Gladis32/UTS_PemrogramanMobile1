@@ -8,3 +8,4 @@
 Aplikasi Melaku-Melaku adalah frasa yang berasal dari bahasa Jawa yang berarti "jalan-jalan" atau "berjalan-jalan", aplikasi yang bertujuan untuk memberi informasi wisata yang berada di pulau Jawa.
 
 ## Storyboard
+![Storyboard melaku](https://github.com/user-attachments/assets/9a503e97-839f-4584-a8ea-3ce835078f3e)
