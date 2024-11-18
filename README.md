@@ -9,3 +9,7 @@ Aplikasi Melaku-Melaku adalah frasa yang berasal dari bahasa Jawa yang berarti "
 
 ## Storyboard
 ![Storyboard melaku](https://github.com/user-attachments/assets/9a503e97-839f-4584-a8ea-3ce835078f3e)
+
+## Mockup 
+![mockup](https://github.com/user-attachments/assets/11ce4614-5c13-485d-8985-ce26ec665b11)
+
