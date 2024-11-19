@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E6E1">
+
+    <!-- Fixed Header -->
+    <ImageView
+        android:id="@+id/homeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/headerhome"
+        android:scaleType="fitXY" />
+
+    <!-- Button Jawa Barat -->
+    <Button
+        android:id="@+id/btnJawaBarat"
+        android:layout_width="158dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/iconjawabarat"
+        android:elevation="7dp"
+        android:contentDescription="Tombol Jawa Barat" />
+
+    <!-- Button Jawa Timur -->
+    <Button
+        android:id="@+id/btnJawaTimur"
+        android:layout_width="158dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="250dp"
+        android:layout_toEndOf="@id/btnJawaBarat"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/iconjawatimur"
+        android:elevation="7dp"
+        android:contentDescription="Tombol Jawa Timur" />
+
+    <!-- Button Jawa Tengah -->
+    <Button
+        android:id="@+id/btnJawaTengah"
+        android:layout_width="158dp"
+        android:layout_height="189dp"
+        android:layout_below="@id/btnJawaBarat"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/iconjawatengah"
+        android:contentDescription="Tombol Jawa Tengah"
+        android:elevation="7dp" />
+</RelativeLayout>

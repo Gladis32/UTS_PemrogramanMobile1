@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E6E1"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imagemalioboro"
+        android:layout_width="439dp"
+        android:layout_height="305dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagemalioboro" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/iconback" />
+
+    <TextView
+        android:id="@+id/malioboro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/poppinsExtraBold"
+        android:text="Malioboro"
+        android:textColor="#727A53"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subtitleWisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Yogyakarta"
+        android:textColor="#727A53"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sekilasText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitleWisata"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppins_SemiBold"
+        android:text="Sekilas"
+        android:textColor="#727A53"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionWisata"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sekilasText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppinsregular"
+        android:justificationMode="inter_word"
+        android:text="Malioboro adalah jalan utama di Yogyakarta yang terkenal sebagai pusat perbelanjaan dan budaya. Di sepanjang jalan ini, wisatawan dapat menemukan berbagai toko, pasar, kafe, serta berbagai produk seni dan kerajinan khas Yogyakarta. Malioboro juga menawarkan atmosfer khas Yogyakarta dengan kehadiran becak, pedagang kaki lima, serta pertunjukan seni jalanan."
+        android:textColor="#727A53"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/activitiesInfo"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionWisata"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppinsregular"
+        android:justificationMode="inter_word"
+        android:text="Aktivitas : Berbelanja oleh-oleh khas Yogyakarta seperti batik, kerajinan tangan, dan makanan tradisional, menikmati makanan khas seperti Gudeg, Bakpia, dan Sate Klathak, berkeliling dengan becak atau delman, mengunjungi pasar malam dan menikmati hiburan jalanan, mengunjungi beberapa tempat bersejarah di sekitar Malioboro seperti Benteng Vredeburg dan Taman Sari. \n\nTiket Masuk : Gratis "
+        android:textColor="#727A53"
+        android:textSize="12sp" />
+
+</RelativeLayout>

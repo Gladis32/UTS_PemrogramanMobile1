@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E6E1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Fixed Header using PNG -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp">
+
+        <!-- Header Image -->
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/headerjawatimur" /> <!-- Use your header PNG image -->
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/iconback" /> <!-- Use your PNG back button -->
+    </RelativeLayout>
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Malioboro Button -->
+        <Button
+            android:id="@+id/btngunungbromo"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button"
+            android:elevation="4dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Gunung Bromo"
+            android:textAllCaps="false"
+            android:textColor="#727A53"
+            android:textSize="20sp" /> <!-- Changed textSize to 24sp -->
+
+        <!-- Candi Borobudur Button -->
+        <Button
+            android:id="@+id/btnkawahijen"
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button"
+            android:elevation="4dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Kawah Ijen"
+            android:textAllCaps="false"
+            android:textColor="#727A53"
+            android:textSize="20sp" /> <!-- Changed textSize from 24dp to 24sp -->
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E6E1"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imagecandiborobudur"
+        android:layout_width="439dp"
+        android:layout_height="305dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagecandiborobudur" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/iconback" />
+
+    <TextView
+        android:id="@+id/candiborobudur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/poppinsExtraBold"
+        android:text="Candi Borobudur"
+        android:textColor="#727A53"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subtitleWisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Magelang, Jawa Tengah"
+        android:textColor="#727A53"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sekilasText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitleWisata"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppins_SemiBold"
+        android:text="Sekilas"
+        android:textColor="#727A53"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/descriptionWisata"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sekilasText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppinsregular"
+        android:justificationMode="inter_word"
+        android:text="Candi Borobudur adalah candi Buddha terbesar dan terindah di dunia, terletak di Magelang, Jawa Tengah. Candi ini merupakan situs warisan dunia UNESCO dan dikenal dengan keindahan arsitektur dan reliefnya yang sangat rinci, menggambarkan kisah-kisah kehidupan Buddha. Candi ini memiliki 9 tingkat dan lebih dari 500 patung Buddha yang tersebar di seluruh kompleks"
+        android:textColor="#727A53"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/activitiesInfo"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionWisata"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/poppinsregular"
+        android:justificationMode="inter_word"
+        android:text="Aktivitas :Mengunjungi dan menikmati keindahan candi. Menyaksikan sunrise di Borobudur (wisata pagi lebih awal). Foto-foto dengan latar belakang stupa besar dan relief candi. Mengikuti tur untuk mempelajari sejarah dan filosofi Borobudur. Mencoba meditasi dan kontemplasi di sekitar area candi.\n\nTiket Masuk : Dewasa domestik: sekitar Rp 50.000 - Rp 100.000. Wisatawan internasional : sekitar Rp 300.000 - Rp 400.000. (Harga dapat berubah, dan harga tiket untuk sunrise tour lebih tinggi.)"
+        android:textColor="#727A53"
+        android:textSize="12sp" />
+
+</RelativeLayout>

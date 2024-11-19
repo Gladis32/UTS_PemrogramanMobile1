@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E6E1">
+
+    <!-- Logo Image -->
+
+    <!-- Tagline Text -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="190dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/logo" />
+
+    <!-- Oval Button -->
+
+    <ImageView
+        android:id="@+id/tagline"
+        android:layout_width="322dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/logoImage"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/tagline" />
+
+    <Button
+        android:id="@+id/oval_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/oval_button"
+        android:elevation="4dp"
+        android:contentDescription="Tombol Jawa Barat" />
+
+</RelativeLayout>
