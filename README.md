@@ -4,6 +4,9 @@
 |----|---|-----|------|
 |Gladis Toti Anggraini|312310566|TI.23.C.3|Pemrograman Mobile 1|
 
+
+<b>The project is in progress</b>
+
 ## Aplikasi Melaku-Melaku
 Aplikasi Melaku-Melaku adalah frasa yang berasal dari bahasa Jawa yang berarti "jalan-jalan" atau "berjalan-jalan", aplikasi yang bertujuan untuk memberi informasi wisata yang berada di pulau Jawa.
 
